@@ -1,5 +1,3 @@
-import user from '../data/user.json';
-
 export default function Profile(props) {
   const { username, tag, location, avatar, stats } = props;
   const { followers, likes, views } = stats;
