@@ -4,8 +4,13 @@ export default function FriendList({ props }) {
   console.log('list', props);
   const { avatar, name, isOnline, id } = props;
   return (
-    <ul class="friend-list">
-      <FriendListItem avatar={avatar} name={name} isOnline={isOnline} id={id} />
+    <ul className="friend-list">
+      <FriendListItem
+        avatar={avatar}
+        name={name}
+        isOnline={isOnline}
+        key={id}
+      />
     </ul>
   );
 }
