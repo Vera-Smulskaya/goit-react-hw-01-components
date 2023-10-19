@@ -1,0 +1,30 @@
+.table {
+  width: 600px;
+  margin: 80px auto;
+  border: 1px soled black;
+  border-spacing: 0;
+  box-shadow: 9px 12px 25px -4px rgba(0, 0, 0, 0.74);
+}
+
+.tableHead {
+  background-color: rgb(43, 182, 182);
+  color: white;
+  text-shadow: 2px 2px 2px #181818;
+}
+
+.tableHeadItem {
+  padding: 20px;
+  text-transform: uppercase;
+  border: 1px solid rgb(145, 145, 145);
+}
+
+.tableItem {
+  text-align: center;
+  padding: 6px;
+  color: rgb(145, 145, 145);
+  border: 1px solid rgb(145, 145, 145);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(213, 251, 251);
+}
