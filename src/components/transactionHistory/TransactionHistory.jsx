@@ -1,6 +1,4 @@
 export default function TransactionHistory({ items }) {
-  console.log('items', items);
-
   return (
     <table className="transaction-history">
       <thead>
