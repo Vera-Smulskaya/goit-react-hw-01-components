@@ -27,6 +27,7 @@
   align-items: center;
   padding-top: 16px;
   padding-bottom: 16px;
+  text-shadow: 2px 2px 2px #181818;
 }
 
 .statListLabel {

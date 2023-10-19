@@ -1,0 +1,25 @@
+.friendsItem {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  box-shadow: 9px 12px 25px -4px rgba(0, 0, 0, 0.74);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.friendsStatus {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.friendsAvatar {
+  width: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.friendsName {
+  font-size: 36px;
+}
